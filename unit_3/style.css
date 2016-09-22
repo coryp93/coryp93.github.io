@@ -1,0 +1,14 @@
+body {
+text-align: center;
+background: url("https://s-media-cache-ak0.pinimg.com/564x/36/7c/3d/367c3d1946f0251d54ae22bdd28923a6.jpg");
+background-size: cover;
+color: #FFF300;
+font-family: "Standard CT";
+font-weight: bold;
+}
+hr {
+width: 400px;
+}
+p {
+	font-size: 24px;
+}
