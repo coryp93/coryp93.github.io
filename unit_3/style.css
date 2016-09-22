@@ -1,14 +1,23 @@
 body {
-text-align: center;
-background: url("https://s-media-cache-ak0.pinimg.com/564x/36/7c/3d/367c3d1946f0251d54ae22bdd28923a6.jpg");
-background-size: cover;
-color: #FFF300;
-font-family: "Standard CT";
-font-weight: bold;
+	text-align: center;
+	color:#333;
+	font-family: "Standard CT";
+	font-weight: bold;
+}
+section {
+	padding:5em 0;
 }
 hr {
-width: 400px;
+	width: 400px;
 }
 p {
 	font-size: 24px;
+}
+#splash {
+	background: url("https://s-media-cache-ak0.pinimg.com/564x/36/7c/3d/367c3d1946f0251d54ae22bdd28923a6.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	color: #FFF300;
+	height: 90vh;
+	padding: 5em 0 0;
 }
