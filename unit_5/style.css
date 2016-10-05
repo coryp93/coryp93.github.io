@@ -1,70 +1,75 @@
-* {
-	box-sizing: border-box; 
+@import 'https://fonts.googleapis.com/css?family=Yatra+One';
+* {margin:0; padding:0; box-sizing: border-box;}
+body {
+	color:#333;
+	/*font-family: 'Yatra One', cursive;*/
+	font-family:helvetica, arial, sans-serif;
+	font-size: 20px;
 }
-head {
-	display: none;
+section {
+	padding: 5em 0;
+}
+header {
+	background-color: #fff300;
+	/* border: 1px black solid; */
+	/* padding: 20px; */
+}
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 5em 0;
+}
+nav {
+    float: right;
+    margin-top: .75em;
+}
+h1 {
+    font-size: 4em;
+    width: 10em;
+}
+ul {
+	padding-left:1.25em;	
 }
 .logo {
 	text-align: left;
-	text-decoration: none
+	text-decoration: none;
 	font-size: 2em;
-	font-weight: 50;
-	color: fff;
-	letter-spacing: .65em
-	background color: 49C9FF;
-}
-header {
-	background-color: #FFFED74;
-	border: 1px black solid;
-	padding: 20px;
-}
-.main-nav {
-	display: block;
-	background-color: #E8C66A;
-	width: 100%;
-	box-flex: row;
-	list-style: double;
-	text-align: left;
-	text-decoration: box; 
-	border-style: dotted solid;
-	box-sizing: border-box;
-}
-body {
-	text-align: center;
-	color:#333;
-	font-family: 'Yatra One', cursive;
-	font-weight: bold;
-}
-#what-we-do {
-	padding:5em 0;
+	font-weight: 100;
+	color: #fff;
+	letter-spacing: .65em;
+	background color: #49C9FF;
+	float: left;
 }
 .description {
-	background-color: #E89C6C
+	background-color: #E89C6C;
 	border: 1px black solid;
 	padding: 20px;
 }
 #about {
 	text-align: left;
 	text-decoration: none;
-	table-layout: row;
-}
-hr {
-	width: 400px;
-}
-p {
-	font-size: 20px;
-}
-#conclusion {
-	background-color: #FF957E
-	border: 1px black solid;
-	padding: 20px;
-}
-	
+}	
 #splash {
-	background: url("https://s-media-cache-ak0.pinimg.com/564x/36/7c/3d/367c3d1946f0251d54ae22bdd28923a6.jpg");
+	background: url("http://i.huffpost.com/gen/1760211/thumbs/o-AFRICA-CHILDREN-facebook.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
-	color: #FFF300;
+	color: rgb(255, 243, 0);
 	height: 90vh;
-	padding: 5em 0 0;
+	padding: 10em 0 0 6em;
+}
+.cta {
+    background: #CA485E;
+    color: #fff;
+    padding: 1em 2em;
+    display: inline-block;
+    margin-top: 1em;
+    text-decoration: none;
+    border-radius: .25em;
+}
+.clearfix:after {
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+    content: " ";
 }
