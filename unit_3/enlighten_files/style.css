@@ -1,0 +1,52 @@
+* {
+	box-sizing: border-box; 
+}
+head {
+	display: none;
+}
+.logo {
+	text-align: left;
+	text-decoration: none
+	font-size: 2em;
+	font-weight: 50;
+	color: fff;
+	letter-spacing: .65em
+	background color: 49C9FF;
+}
+.main-nav {
+	display: inline-list-item;
+	width: 100%
+	box-flex: row;
+	list-style: double;
+	text-align: left;
+	text-decoration: box 
+	border-style: dotted solid;
+	box-sizing: border-box;
+}
+body {
+	text-align: center;
+	color:#333;
+	font-family: 'Yatra One', cursive;
+	font-weight: bold;
+}
+section {
+	padding:5em 0;
+}
+#about {
+	text-align: left;
+	text-decoration: none;
+}
+hr {
+	width: 400px;
+}
+p {
+	font-size: 20px;
+}
+#splash {
+	background: url("https://s-media-cache-ak0.pinimg.com/564x/36/7c/3d/367c3d1946f0251d54ae22bdd28923a6.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	color: #FFF300;
+	height: 90vh;
+	padding: 5em 0 0;
+}
