@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 @import 'https://fonts.googleapis.com/css?family=Yatra+One';
 * {margin:0; padding:0; box-sizing: border-box;}
 body {
@@ -9,19 +8,6 @@ body {
 }
 section {
 	padding: 5em 0;
-=======
-* {
-	box-sizing: border-box; 
-}
-.logo {
-	text-align: left;
-	text-decoration: none;
-	font-size: 2em;
-	font-weight: 100;
-	color: fff;
-	letter-spacing: .65em;
-	background color: 49C9FF;
->>>>>>> Stashed changes
 }
 header {
 	background-color: #fff300;
@@ -54,46 +40,20 @@ ul {
 	background color: #49C9FF;
 	float: left;
 }
-<<<<<<< Updated upstream
 .description {
 	background-color: #E89C6C;
-=======
-article {
-	background-color: #E89C6C
->>>>>>> Stashed changes
 	border: 1px black solid;
 	padding: 20px;
 }
 #about {
 	text-align: left;
 	text-decoration: none;
-<<<<<<< Updated upstream
 }	
 #splash {
 	background: url("http://i.huffpost.com/gen/1760211/thumbs/o-AFRICA-CHILDREN-facebook.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
 	color: rgb(255, 243, 0);
-=======
-	table-layout: row;
-}
-hr {
-	width: 400px;
-}
-p {
-	font-size: 20px;
-}
-footer {
-	background-color: #FF957E
-	border: 1px black solid;
-	padding: 20px;
-}
-#splash {
-	background: url("https://s-media-cache-ak0.pinimg.com/564x/36/7c/3d/367c3d1946f0251d54ae22bdd28923a6.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	color: #FFF300;
->>>>>>> Stashed changes
 	height: 90vh;
 	padding: 10em 0 0 6em;
 }
