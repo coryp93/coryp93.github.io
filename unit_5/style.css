@@ -1,13 +1,14 @@
 @import 'https://fonts.googleapis.com/css?family=Yatra+One';
 * {margin:0; padding:0; box-sizing: border-box;}
 body {
-	color:#333;
+	background color: #FFE2B8;
 	/*font-family: 'Yatra One', cursive;*/
 	font-family:helvetica, arial, sans-serif;
 	font-size: 20px;
+	padding: 0 0 0 0; 
 }
 section {
-	padding: 5em 0;
+	padding: 1em 1em;
 }
 header {
 	background-color: #fff300;
@@ -17,28 +18,38 @@ header {
 footer {
 	background-color: #FF957E;
 	border: 1px black solid;
-	padding: 5em 0;
+	padding: 20px;
 }
 nav {
     float: right;
     margin-top: .75em;
+    background-color: E8C66A; 
+    border: 1px black solid;
+    padding: 20px 0em 1em 0em;
 }
 h1 {
-    font-size: 4em;
-    width: 10em;
+    font-size: 2em;
+    width: 12em;
 }
 ul {
 	padding-left:1.25em;	
+}
+h2 {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 }
 .logo {
 	text-align: left;
 	text-decoration: none;
 	font-size: 2em;
 	font-weight: 100;
-	color: #fff;
+	color: #FFF;
 	letter-spacing: .65em;
 	background color: #49C9FF;
 	float: left;
+	border: 1px black solid;
+	padding: 0em 0em 0em 2em;
 }
 .description {
 	background-color: #E89C6C;
@@ -48,8 +59,12 @@ ul {
 #about {
 	text-align: left;
 	text-decoration: none;
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
 }	
 #splash {
+	background:url(images/filename.ext);
 	background: url("http://i.huffpost.com/gen/1760211/thumbs/o-AFRICA-CHILDREN-facebook.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
@@ -65,6 +80,11 @@ ul {
     margin-top: 1em;
     text-decoration: none;
     border-radius: .25em;
+}
+#email {
+	background-color: #3ECCB2;
+	border: 1px black solid;
+	padding: 20px;
 }
 .clearfix:after {
     display: block;
