@@ -1,0 +1,148 @@
+@import 'https://fonts.googleapis.com/css?family=Yatra+One';
+* {margin:0; padding:0; box-sizing: border-box;}
+body {
+	background color: #FF7619;
+	/*font-family: 'Yatra One', cursive;*/
+	font-family:helvetica, arial, sans-serif;
+	font-size: 16px;
+	padding: 0 0 0 0; 
+}
+section {
+	padding: 0em 0em;
+}
+header {
+	background-color: #2CB247;
+	/* border: 1px black solid; */
+	/* padding: 20px; */
+}
+footer {
+	background-color: #2EF5FF;
+	border: 1px black solid;
+	padding: 2em;
+}
+nav {
+    float: right;
+    margin-top: .75em;
+    background-color: #FFA657; 
+    border: 1px black solid;
+    padding: 20px 0em 1em 0em;
+}
+h1 {
+    font-size: 2em;
+    width: 12em;
+}
+ul {
+	padding-left: 1.25em;	
+}
+h2 {
+	background-color: #8FFF5C;
+	border: 1px black solid;
+	padding: .50em;
+}
+nav a: hover {
+	color: green;
+}
+.logo {
+	text-align: left;
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: 100;
+	color: #FFF;
+	letter-spacing: .65em;
+	background color: #2CB247;
+	float: left;
+	border: 1px black solid;
+	padding: 0em 0em 0em 2em;
+}
+.description {
+	background-color: #54C1FF;
+	border: 1px black solid;
+	padding: 2em;
+}
+#about {
+	text-align: left;
+	text-decoration: none;
+	background-color: #FF7C42;
+	border: 1px black solid;
+	padding: 2em;
+}	
+#splash {
+	background: url(images/enlighten.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	color: rgb(255, 243, 0);
+	min-height: 90vh;
+	padding: 10em 0 2em 6em;
+}
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 2em;
+}
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 2em;
+    float: left;
+    width: 30%;
+}
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 2em;
+    float: right;
+    width: 62%;
+}
+.cta {
+    background: #CA485E;
+    color: #fff;
+    padding: 1em 2em;
+    display: inline-block;
+    margin-top: 1em;
+    text-decoration: none;
+    border-radius: .25em;
+}
+#email {
+	background-color: #5942FF;
+	border: 1px black solid;
+	padding: 2em;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+@media screen and (max-width: 817px) {
+	/*body {
+		font-size: 20%;
+	}*/
+	nav {
+		float: none;
+	}
+	#left {
+		float:none;
+		width: 100%;
+		margin-bottom: 1em;
+	}
+	#right {
+		float:none;
+		width: 100%;
+	}
+	#splash {
+		padding: 5em 2em;
+		min-height: 40vh;
+		background-position: center center;
+	}
+	.logo {
+		float:none;
+	}
+	h2 {
+		padding: .50em;
+	}
+}
+
+
+
