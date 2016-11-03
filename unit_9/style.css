@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Paytone+One');
+* {margin:0; padding:0; box-sizing: border-box;}
+body {
+	background color: #FF7619;
+	font-family: 'Rubik', sans-serif;
+	font-size: 16px;
+	padding: 0; 
+}
+section {
+	padding: 0;
+}
+header {
+	background-color: #2CB247;
+	border-bottom: 5px solid #000;
+	padding-bottom: 1em;
+}
+footer {
+	padding: 2em;
+	text-align: center;
+	font-size: 1.5em;
+	background-color: #D7EB9C;
+}
+nav {
+    float: right;
+    padding: .65em;
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: .75em;
+    letter-spacing: .50px;
+    line-height: 5px;
+    color: #6c6cf1;
+    font-size: 1.1em;
+}
+h1 {
+    font-size: 2.2em;
+    width: 11em;
+}
+h2 {
+	text-align: center;
+	padding: .50em;
+	font-size: 45px;
+	font-weight: bolder;
+	font-family: 'Paytone One', sans-serif;
+}
+nav a:hover {
+	color: red;
+}
+.logo {
+	text-align: left;
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: 100;
+	letter-spacing: .65em;
+	background color: #50FFC7;
+	float: left;
+	border: 3px black solid;
+	padding-left: .45em;
+	background-color: #3EFF83;
+	font-family: 'Paytone One', sans-serif;
+}
+.description {
+	padding: 1em;
+}
+#about {
+	text-align: center;
+	list-style: none;
+	background-color: #3EFF83;
+	font-size: 1.5em;
+	padding-bottom: 2em;
+}	
+#splash {
+	background: url(images/enlighten.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	color: rgb(255, 243, 0);
+	min-height: 90vh;
+	padding: 10em 0 2em 6em;
+	border-bottom: 5px solid #000;
+}
+#left {
+ 	 width: 100%;
+ 	 text-align: center;
+ 	 padding: 1em;
+ 	 background-color: #3EFF83;
+ 	 font-size: 1.5em;
+}
+#right {
+    width: 100%;
+    border-bottom: 5px solid #000;
+}
+.cta {
+    background: #CA485E;
+    color: #fff;
+    padding: 1em 2em;
+    display: inline-block;
+    margin-top: 1em;
+    text-decoration: none;
+    border-radius: .25em;
+    font-size: 1.2em;
+}
+#contact {
+	text-align: center;
+	width: 100%;
+	padding-top: 2em;
+	background-color: #B0E0FF;
+	font-size: 1.5em;
+}
+#email {
+	padding: 0em;
+	text-align: center;
+	padding-bottom: 2em;
+	border-bottom: 5px solid #000;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+@media screen and (max-width: 817px) {
+	nav {
+		float: none;
+	}
+	#left {
+		float:none;
+		width: 100%;
+		margin-bottom: 1em;
+	}
+	#right {
+		float:none;
+		width: 100%;
+	}
+	#splash {
+		padding: 5em 2em;
+		min-height: 40vh;
+		background-position: center center;
+	}
+	.logo {
+		float:none;
+	}
+	h2 {
+		padding: .50em;
+	}
+}
